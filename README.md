@@ -8,10 +8,6 @@ of artificial intelligence, from fundamentals to applied use cases.
 
 <!-- PROJECT_TABLE_START -->
 
-| #   | Projet              | Domaine    | Statut |
-| --- | ------------------- | ---------- | ------ |
-| 1   | Phishing Classifier | AI-for-Sec | ✅     |
-
 <!-- PROJECT_TABLE_END -->
 
 ## 🗂 Categories
