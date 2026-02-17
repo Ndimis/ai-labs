@@ -1,4 +1,4 @@
-# 🧪 AI Labs
+# 🧪 AI Projects
 
 A curated collection of AI experiments, proofs of concept, and learning projects.
 This repository is organized by category to make it easy to explore different areas
