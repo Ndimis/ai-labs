@@ -6,16 +6,10 @@ of artificial intelligence, from fundamentals to applied use cases.
 
 ## 📂 Project Index
 
-| Category | Project Name | Description | Link |
-|--------|--------------|-------------|------|
-| Machine Learning | Project Name | Short description of the project | https://github.com/username/project |
-| Machine Learning | Project Name | Short description of the project | https://github.com/username/project |
-| Deep Learning | Project Name | Short description of the project | https://github.com/username/project |
-| NLP / LLMs | Project Name | Short description of the project | https://github.com/username/project |
-| Computer Vision | Project Name | Short description of the project | https://github.com/username/project |
-| Reinforcement Learning | Project Name | Short description of the project | https://github.com/username/project |
-| MLOps | Project Name | Short description of the project | https://github.com/username/project |
-| Applied AI | Project Name | Short description of the project | https://github.com/username/project |
+
+<!-- PROJECT_TABLE_START -->
+<!-- PROJECT_TABLE_END -->
+
 
 ## 🗂 Categories
 
