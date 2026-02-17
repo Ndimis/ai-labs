@@ -1,0 +1,35 @@
+name: Update README Project Index
+
+on:
+  push:
+    paths:
+      - "**/project.yaml"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Update README
+        run: python .github/scripts/update_readme.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add README.md
+            git commit -m "docs: auto-update project index"
+            git push
+          fi

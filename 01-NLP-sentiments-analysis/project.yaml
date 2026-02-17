@@ -1,0 +1,3 @@
+name: Sentiment Analysis
+category: NLP / LLMs
+description: Sentiment classification using TF-IDF and logistic regression
