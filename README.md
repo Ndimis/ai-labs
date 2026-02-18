@@ -32,7 +32,8 @@ This repository serves as my technical diary for AI development. It covers every
 
 1. Clone the repo: `git clone https://github.com/Ndimis/ai-projects.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the latest script: `python src/pX_project_name.py`
+3. Run the latest script: `python src/project_name.py`
+4. Run test : `pytest src/test_project_name.py`
 
 ---
 
