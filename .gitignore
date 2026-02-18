@@ -1,0 +1,56 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# ======================
+# Testing / tooling
+# ======================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ======================
+# Notebooks
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# OS files
+# ======================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ======================
+# IDEs / Editors
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Project outputs
+# ======================
+outputs/
+artifacts/
+logs/
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
